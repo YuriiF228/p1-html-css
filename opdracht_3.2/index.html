@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Boekingformulier</h1>
+
+    <form action="">
+        <label for="firstname">Voornaam</label>
+        <input type="text" name="firstname">
+        <br><br>
+        <label for="surname">Achternaam</label>
+        <input type="text" name="surname">
+        <br><br>
+        <label for="gender">Geslacht</label>
+        <input type="radio" name="gender" checked> Man
+        <input type="radio" name="gender"> Vrouw
+        <br><br>
+        <label for="Street">Straat met huisnummer</label>
+        <input type="text">
+        <input type="number">
+        <br><br>
+        <label for="post">Postcode</label>
+        <input type="number">
+        <input type="text">
+        <br><br>
+        <label for="City">Stad</label>
+        <input type="text">
+        <br><br>
+        <label for="country">Land</label>
+        <input type="text">
+        <br><br>
+        <label for="BSN">BSN</label>
+        <input type="number" name="BSN" maxlength=">
+        <br><br>
+        <label for="Vakantie">Vakantieland</label>
+        <select name="Vakantie" id="">
+            <option value="">Nederland</option>
+            <option value="">Spanje</option>
+            <option value="">Malta</option>
+        </select>
+        <br><br>
+        <label for="dateOfOut">Datum van vertrek</label>
+        <input type="date" name="dateOfOut" min="2024-09-18">
+        <br><br>
+        <label for="dateOfBack">Datum van vertrek</label>
+        <input type="date" name="dateOfBack" min="2024-09-19">
+        <br><br>
+        <label for="countOfPers">Aantal reisgenoten</label>
+        <input type="text" name="countOfPers" pattern="[0-4]">
+        <br><br>
+        <input type="button" value="Boek nu">
+        <br><br>
+        <label for="mail">e-mail</label>
+        <input type="email" name="mail">
+        <br><br>
+        <label for="password">wachtwoord</label>
+        <input type="password" name="password">        
+
+    </form>
+</body>
+</html>
