@@ -1,0 +1,65 @@
+main{
+    height: 1080px;
+}
+header{
+    background: red;
+    padding: 20px;
+    text-align: left;
+    height: 10%;
+    text-wrap: wrap;
+}
+.block2{
+    background: yellow;
+    height: 30%;
+}
+.block3{
+    background: orange;
+    height: 30%;
+}
+.block4{
+    background: green;
+    height: 30%;
+}
+div>h2,p{
+    padding: 20px;
+    text-align: left;
+}
+@media only screen and (max-width:1280px){
+header{
+    background: pink;
+}
+.block2{
+    background: red;
+}
+.block3{
+    background: rgb(85, 85, 255);
+}
+.block4{
+    background: blue;
+}
+}
+@media only screen and (max-width:412px){
+    div>h2,p{
+        text-align: center;
+    }   
+    header{
+        background: rgb(0, 134, 243);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .block2{
+        background: rgb(0, 225, 255);
+    }
+    .block3{
+        background: rgb(207, 85, 255);
+    }
+    .block4{
+        background: rgb(0, 81, 173);
+    }
+    .Logo{
+        width: 30px;
+        height: 30px;
+        background: white;
+    }
+    }
