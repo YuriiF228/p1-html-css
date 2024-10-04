@@ -1,0 +1,16 @@
+body{
+    width: 700px;
+    height: 300px;
+    background: #ad7272;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+li{
+    list-style-type: none;
+}
+.yellow{
+    color: blanchedalmond;
+    margin-bottom: 10px;
+}
