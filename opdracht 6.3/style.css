@@ -1,0 +1,17 @@
+header {
+    width: 1920px;
+    height: 80px;
+    background: #dddddd2f;
+    display: flex;
+    flex-direction: row;
+}
+.header__leftSide, .header__rightSide {
+    width: 20%;
+    text-align: center;
+}
+.header__middleSide {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
